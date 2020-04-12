@@ -1,0 +1,256 @@
+1000817231303
+11/04/2020 15:39:41
+Personal
+
+Reward
+29.052000 BTL
+(3%)
+0 BTL
+
+Done
+17112.226619 BTL
+Direct Bonus from the Limited plan
+purchase by a Level 2 partner:
+B0013277
+1000817231297
+11/04/2020 15:37:29
+Personal
+
+Reward
+3.631500 BTL
+(3%)
+0 BTL
+
+Done
+17083.174619 BTL
+Direct Bonus from the Limited plan
+purchase by a Level 2 partner:
+B0013257
+1000817231293
+11/04/2020 15:37:09
+Personal
+
+Reward
+7.263000 BTL
+(3%)
+0 BTL
+
+Done
+17079.543119 BTL
+Direct Bonus from the Limited plan
+purchase by a Level 2 partner:
+B0013257
+1000817231287
+11/04/2020 15:35:12
+Personal
+
+Reward
+3.631500 BTL
+(3%)
+0 BTL
+
+Done
+17072.280119 BTL
+Direct Bonus from the Limited plan
+purchase by a Level 2 partner:
+B0013257
+1000817231283
+11/04/2020 15:34:32
+Personal
+
+Reward
+14.526000 BTL
+(3%)
+0 BTL
+
+Done
+17068.648619 BTL
+Direct Bonus from the Limited plan
+purchase by a Level 2 partner:
+B0013257
+1000817230771
+11/04/2020 00:00:21
+Personal
+
+Reward
+111.680000 BTL
+(8%)
+0 BTL
+
+Done
+17054.122619 BTL
+8% Binary Bonus of the weak leg
+volume: $ 698.000
+1000817230433
+10/04/2020 14:07:24
+Personal
+
+Reward
+69.315840 BTL
+(3%)
+0 BTL
+
+Done
+15926.702619 BTL
+3% Passive Bonus of your Level 2
+partners’ profit
+1000817230432
+10/04/2020 14:07:22
+Personal
+
+Reward
+125.908860 BTL
+(3%)
+0 BTL
+
+Done
+15857.386779 BTL
+3% Passive Bonus of your Level 1
+partners’ profit
+1000817230140
+10/04/2020 12:00:48
+Personal
+
+Daily Profit
+1.804000 BTL
+(0.55%)
+0 BTL
+
+Done
+15731.477919 BTL
+Profit from the Medium plan
+#9449830563
+1000817230139
+10/04/2020 12:00:47
+Personal
+
+Daily Profit
+0.880000 BTL
+(0.4%)
+0 BTL
+
+Done
+15729.673919 BTL
+Profit from the Base plan
+#1179515853
+1000817229751
+10/04/2020 12:00:29
+Personal
+
+Daily Profit
+59.730000 BTL
+(5.43%)
+0 BTL
+
+Done
+15728.793919 BTL
+Profit from the Limited plan
+#6316128586
+1000817229223
+09/04/2020 23:28:46
+Personal
+
+Receipt
+0.13500001 BTC
+0 BTC
+
+Done
+0.17031490 BTC
+Receiving funds from user:
+B0000999 (Janis Lacis)
+1000817224576
+05/04/2020 18:22:14
+Personal
+
+Deposit
+0.01684569 BTC
+0 BTC
+
+Done
+0.05046641 BTC
+Purchasing the Medium plan
+#9449830563
+1000817220252
+30/03/2020 21:34:17
+Personal
+
+Transfer
+7992.000000 BTL
+16.016032 BTL
+
+Done
+2350.412149 BTL
+Transferring funds to user:
+B0011130
+1000817214637
+20/03/2020 21:12:39
+Personal
+
+Exchange
+1492.920000 BTL
+15.080000 BTL
+
+Done
+12430.134600 BTL
+Exchange of funds; 1 492.920000 BTL
+payment sent to Bitcoin BTC
+100081726947
+07/03/2020 09:00:23
+Personal
+
+Excess Profit
+16.050000 BTL
+(1%)
+0 BTL
+
+Done
+7696.369000 BTL
+Excess profit from the Limited plan
+#500684000
+100081725073
+04/03/2020 11:15:47
+Personal
+
+Withdrawal
+0.00567182 BTC
+0.00029851 BTC
+
+Done
+0.00007815 BTC
+Bitcoin BTC Withdrawal:
+1mTiPGwM4ZwUtg8PLhbEJhEzj8pmF3kXp
+100081724456
+02/03/2020 20:28:00
+Personal
+
+Funding
+0.00380000 BTC
+0 BTC
+
+Done
+0.00604848 BTC
+Personal Account Funding
+1000817213891
+19/03/2020 22:29:50
+Personal
+
+Exchange
+0.05233199 BTC
+0 BTC
+
+Done
+0.05324848 BTC
+Exchange of funds; 0.05233199 BTC
+payment received from BTL Token
+1000817213890
+19/03/2020 22:29:50
+Personal
+
+Exchange
+1410.750000 BTL
+14.250000 BTL
+
+Done
+12342.454600 BTL
+Exchange of funds; 1 410.750000 BTL
+payment sent to Bitcoin BTC
