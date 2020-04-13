@@ -11,16 +11,40 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class ExcelTools {
+public class BitlesTools {
 
     public static void main(String[] args) {
 
         try {
+            System.out.println("Starting Bitles tools...");
+            String inputPath = "";
+            String outputPath = "";
+            if (args != null && args.length > 0 && args[0] != null && !args[0].equals("")) {
+                System.out.println("Assembling file path...");
+                inputPath = args[0] + "/transactions.txt";
+                outputPath = args[1] + "/workbook.xlsx";
+            } else {
+                System.out.println("Building file path...");
+                String pathJar = BitlesTools.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+                pathJar = pathJar.substring(0, pathJar.lastIndexOf("/"));
+                System.out.println("BASE PATH=" + pathJar);
+                inputPath = pathJar + "/transactions.txt";
+                outputPath = pathJar + "/workbook.xlsx";
+            }
+//            if (args != null && args.length > 0 && args[1] != null && !args[1].equals("")) {
+//                outputPath = args[1];
+//            } else {
+//                outputPath = "C:\\dev\\source\\private\\btl-tools\\src\\main\\resources\\workbook.xlsx";
+//            }
+
+            System.out.println("Initializing workbook...");
             Workbook wb = new XSSFWorkbook();
+            System.out.println("Initializing worksheet...");
             Sheet sheet1 = wb.createSheet("Transactions");
             //
             try {
                 //HEADERS
+                System.out.println("Creating headers...");
                 Row rowHeaders = sheet1.createRow(0);
                 rowHeaders.createCell(Column.ID.getWriteIndex()).setCellValue(Column.ID.getName()); //1
                 rowHeaders.createCell(Column.DATE.getWriteIndex()).setCellValue(Column.DATE.getName());//2
@@ -42,8 +66,10 @@ public class ExcelTools {
                 rowHeaders.createCell(Column.PLAN_ID.getWriteIndex()).setCellValue(Column.PLAN_ID.getName());//18
                 rowHeaders.createCell(Column.ADDRESS.getWriteIndex()).setCellValue(Column.ADDRESS.getName());//19
 
+                System.out.println("Start processing input file...");
+                System.out.println("inputPath = " + inputPath);
                 //the file to be opened for reading
-                FileInputStream fis = new FileInputStream("C:\\dev\\source\\private\\btl-tools\\src\\main\\resources\\transactions.txt");
+                FileInputStream fis = new FileInputStream(inputPath);
                 Scanner sc = new Scanner(fis);    //file to be scanned
                 //returns true if there is another line to read
                 int rowIndex = 0;
@@ -265,8 +291,9 @@ public class ExcelTools {
 
 
             //
-            String path = "C:\\dev\\source\\private\\btl-tools\\src\\main\\resources\\workbook.xlsx";
-            try (OutputStream fileOut = new FileOutputStream(path)) {
+            System.out.println("Writing output file...");
+            System.out.println("outputPath = " + outputPath);
+            try (OutputStream fileOut = new FileOutputStream(outputPath)) {
                 wb.write(fileOut);
             }
         } catch (IOException e) {
